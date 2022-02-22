@@ -1,0 +1,71 @@
+body{
+    font-family:'Poppins', sans-serif;
+}
+#health{
+    display: flex;
+    border: 1px solid black;
+    height:550px;
+    width: 90%;
+    margin: auto;
+}
+#health>div:first-child{
+    border:1px solid red;
+    height:100%;
+    width: 80%;
+   margin: auto;
+   
+}
+.firstbox{
+    padding-right: 50px;
+}
+.heading{
+    text-align: center;
+    height:100px;
+    width: 100%;
+}
+#health>div:first-child img{
+    width: 100%;
+    height: 500px;
+    margin-top:20px;
+}
+#health>div:last-child{
+    border:1px solid blue;
+    width: 25%;
+    text-align:justify;
+    padding:60px;
+    
+    height:400px;
+    font-size :18px;
+   
+}
+#health>div:last-child p{
+    line-height:33px;
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    color:#333;
+    font-family: 'Poppins', sans-serif;
+}
+#steps{
+    display:grid;
+    grid-template-columns: repeat(3,450px);
+    grid-template-rows:repeat(2,450px);
+    gap:10px;
+    margin-left: 65px;
+   
+
+}
+#steps>div{
+    border:1px solid red;
+    margin-top:20px;
+
+}
+#steps>div img{
+    width:99%;
+    margin-left: 5px;
+}
+.heading{
+    margin-left: 4px;
+    text-align: justify;
+    width: 96%;
+}
